@@ -1,0 +1,77 @@
+html {
+  border-left: 5px solid lightgray;
+}
+
+body {
+  min-height: 100vh;
+  font-family: sans-serif;
+  max-width: 1000px;
+}
+
+header,
+main,
+footer {
+  padding: 1rem 2rem;
+}
+
+h1 {
+  color: tomato;
+  font-size: 4rem;
+  margin: 0px;
+}
+
+img {
+  width: 100%;
+}
+
+.navbar,
+.footerNav {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px;
+}
+
+.navbar {
+  padding-top: 2rem;
+}
+
+.navbar a {
+  color: lightgray;
+}
+.footerNav a {
+  color: tomato;
+}
+
+article h2 {
+  font-size: 3rem;
+  font-weight: normal;
+}
+
+article {
+  margin-bottom: 4rem;
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 2rem;
+}
+
+article p::first-letter {
+  color: lightgray;
+  float: left;
+  font-size: 6rem;
+  font-weight: bold;
+  margin: 0 0.2em;
+}
+
+nav p {
+  color: lightgray;
+}
+
+time {
+  color: lightgray;
+  font-size: 2rem;
+}
+
+article a {
+  color: tomato;
+  float: right;
+}
